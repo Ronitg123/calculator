@@ -6,9 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        div{
-            
-        }
         body{
             display: flex;
             justify-content: center;
@@ -17,11 +14,14 @@
             margin: 0;
         }
         table, tr, td{
-            border: 2px solid black;
+            border: 2px solid #000000;
             margin: 15px;
             padding: 8px 25px 8px 25px;
             border-radius: 6px;
-                }
+            font-family: sans-serif;
+        font-weight: 500;
+        margin-top: 5px;
+            }
                 table{
                     padding:15px;
                     background-color: #000000;
@@ -37,7 +37,7 @@
     <div>
     <table>
         <tr>
-            <td style="background-color: #9bcd30; height:20px;" colspan="4"></td>
+            <td style="background-color: #9bcd30; height:15px ; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.515);" colspan="4"></td>
         </tr>
         <tr class="col-4"></tr>
         <tr>
